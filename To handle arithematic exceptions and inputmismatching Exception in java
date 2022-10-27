@@ -8,7 +8,7 @@ class Exceptions{
        System.out.println("enter numerator");
        inta=sc.nextInt();
        c=10/a;
-       }catch(ArithmeticException e({
+       }catch(ArithmeticException e){
         Syste.out.println("this program has Arithmetic exception");
        } catch (InputMismatchException e){
          System.out.println("please check input of the code");
