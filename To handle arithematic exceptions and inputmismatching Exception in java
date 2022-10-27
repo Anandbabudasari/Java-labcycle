@@ -1,15 +1,15 @@
 import java.util.InputMismatchException;
-import java.util.scanner;
+import java.util.Scanner;
 class Exceptions{
    public static void main(String args[]){
      int c;
      try{
-       Scanner sc= new Scanner(System.in)
+       Scanner sc= new Scanner(System.in);
        System.out.println("enter numerator");
-       inta=sc.nextInt();
+       int a=sc.nextInt();
        c=10/a;
        }catch(ArithmeticException e){
-        Syste.out.println("this program has Arithmetic exception");
+        System.out.println("this program has Arithmetic exception");
        } catch (InputMismatchException e){
          System.out.println("please check input of the code");
         } 
@@ -18,5 +18,3 @@ class Exceptions{
          }
        }
      }
-        
-   
